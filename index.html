@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alessandro Labate | Data Engineer</title>
+
+  <!-- Google Analytics (GA4) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G324C7S4SR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G324C7S4SR');
+</script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    header span {
+      font-size: 14px;
+      opacity: 0.85;
+    }
+
+    .download-btn {
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    .download-btn:hover {
+      background: #0ea5e9;
+    }
+
+    iframe {
+      width: 100%;
+      height: calc(100vh - 64px);
+      border: none;
+      background: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Alessandro Labate</h1>
+      <span>Data Engineer</span>
+    </div>
+
+    <a
+      class="download-btn"
+      href="alessandrolabate.pdf"
+      onclick="gtag('event', 'download_cv', { 'event_category': 'CV', 'event_label': 'PDF Download' });"
+      download
+    >
+      Download PDF
+    </a>
+  </header>
+
+  <iframe src="alessandrolabate.pdf"></iframe>
+</body>
+</html>
